@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<layman>
+  <overlay
+      contact = "pyry.haulos@gmail.com"
+      type = "git"
+      src  = "git://nullkey.ath.cx/~pyry/glc-overlay"
+      name = "glc">
+    <link>
+      http://nullkey.ath.cx/projects/glc
+    </link>
+    <description>
+      glc capture tool and libraries.
+    </description>
+  </overlay>
+</layman>
