@@ -27,7 +27,7 @@ EMULTILIB_PKG="true"
 S="${WORKDIR}/${PN}"
 
 src_unpack() {
-	unpack "${A}"
+	unpack ${A}
 }
 
 src_compile_abi() {
