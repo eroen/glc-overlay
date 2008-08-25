@@ -17,6 +17,7 @@ DEPEND=">=dev-libs/packetstream-0.1.3
 	>=dev-libs/elfhacks-0.4.0
 	virtual/opengl
 	x11-libs/libX11
+	x11-proto/xf86vidmodeproto
 	media-libs/alsa-lib
 	dev-util/cmake"
 RDEPEND=""
