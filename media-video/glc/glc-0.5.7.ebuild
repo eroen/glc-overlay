@@ -19,6 +19,7 @@ DEPEND=">=dev-libs/packetstream-0.1.3
 	x11-libs/libX11
 	x11-proto/xf86vidmodeproto
 	media-libs/alsa-lib
+	media-libs/libpng
 	dev-util/cmake"
 RDEPEND=""
 
