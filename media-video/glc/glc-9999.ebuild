@@ -29,19 +29,21 @@ RESTRICT="nomirror"
 EMULTILIB_PKG="true"
 
 src_unpack() {
+	local REAL_S
+
 	EGIT_REPO_URI="${GLC_REPO_URI}" \
 	EGIT_PROJECT="${PN}-git" \
 		git_src_unpack
+
+	# temporarily route ${S} to ${S}/support
+	REAL_S="${S}"
+	S="${S}/support"
 
 	EGIT_REPO_URI="${GLC_SUPPORT_REPO_URI}" \
 	EGIT_PROJECT="${PN}-support-git" \
 		git_src_unpack
 
-	mkdir -p "${S}/support"
-	mv  "${S}/minilzo" \
-		"${S}/quicklz" \
-		"${S}/lzjb" \
-		"${S}/support/"
+	S="${REAL_S}"
 }
 
 src_compile_abi() {
