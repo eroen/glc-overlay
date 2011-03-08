@@ -5,10 +5,10 @@
 inherit eutils multilib toolchain-funcs git
 
 DESCRIPTION="OpenGL & ALSA video capture tool"
-HOMEPAGE="http://nullkey.ath.cx/projects/glc/"
+HOMEPAGE="http://github.com/nullkey/glc/"
 
-GLC_REPO_URI="git://nullkey.ath.cx/~pyry/glc"
-GLC_SUPPORT_REPO_URI="git://nullkey.ath.cx/~pyry/glc-support"
+GLC_REPO_URI="git://github.com/nullkey/glc.git"
+GLC_SUPPORT_REPO_URI="git://github.com/nullkey/glc-support.git"
 
 LICENSE="ZLIB"
 SLOT="0"

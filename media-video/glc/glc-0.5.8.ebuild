@@ -5,7 +5,7 @@
 inherit eutils multilib toolchain-funcs
 
 DESCRIPTION="OpenGL & ALSA video capture tool"
-HOMEPAGE="http://nullkey.ath.cx/projects/glc/"
+HOMEPAGE="http://github.com/nullkey/glc/"
 SRC_URI="http://nullkey.ath.cx/glc/archive/${P}.tar.gz"
 
 LICENSE="ZLIB"
