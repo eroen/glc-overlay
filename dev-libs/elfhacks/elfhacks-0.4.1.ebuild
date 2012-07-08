@@ -6,7 +6,7 @@ inherit eutils multilib toolchain-funcs
 
 DESCRIPTION="Various ELF run-time hacks"
 HOMEPAGE="http://nullkey.ath.cx/elfhacks/"
-SRC_URI="http://nullkey.ath.cx/elfhacks/archive/${P}.tar.gz"
+SRC_URI="http://nullkey.kapsi.fi/${PN}/archive/${P}.tar.gz"
 RESTRICT="nomirror"
 
 LICENSE="ZLIB"
