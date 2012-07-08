@@ -6,7 +6,7 @@ inherit eutils multilib toolchain-funcs
 
 DESCRIPTION="Thread-safe ring buffer library"
 HOMEPAGE="http://nullkey.ath.cx/packetstream/"
-SRC_URI="http://nullkey.ath.cx/packetstream/archive/${P}.tar.gz"
+SRC_URI="http://nullkey.kapsi.fi/${PN}/archive/${P}.tar.gz"
 RESTRICT="nomirror"
 
 LICENSE="ZLIB"
