@@ -6,7 +6,7 @@
       src  = "git://github.com/nullkey/glc-overlay.git"
       name = "glc">
     <link>
-      http://nullkey.ath.cx/projects/glc
+      https://github.com/nullkey/glc/wiki
     </link>
     <description>
       glc capture tool and libraries.
