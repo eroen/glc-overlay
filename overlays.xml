@@ -3,7 +3,7 @@
   <overlay
       contact = "pyry.haulos@gmail.com"
       type = "git"
-      src  = "git://nullkey.ath.cx/~pyry/glc-overlay"
+      src  = "git://github.com/nullkey/glc-overlay.git"
       name = "glc">
     <link>
       http://nullkey.ath.cx/projects/glc
