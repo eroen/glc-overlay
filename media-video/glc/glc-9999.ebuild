@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-inherit eutils multilib toolchain-funcs git
+inherit eutils multilib toolchain-funcs git-2
 
 DESCRIPTION="OpenGL & ALSA video capture tool"
 HOMEPAGE="http://github.com/nullkey/glc/"
